@@ -5,3 +5,4 @@ Any detected motion will be logged and will serve the capture, notifying the use
 ## Dependencies:
 * Notifo account
 * A RaspberryPI
+* A Django stack
