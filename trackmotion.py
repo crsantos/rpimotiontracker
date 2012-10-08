@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # Script to be called from motion
 # Test with:
-#							python trackmotion.py --filename motiontracker/media/captures/Django.gif
+#			python trackmotion.py -f webcam/motion/Django.gif
 import getopt, sys, os, time
 from uuid import uuid4
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "motiontracker.settings")
