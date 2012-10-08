@@ -15,4 +15,5 @@ tmp
 # static
 motiontracker/media/*
 motiontracker/static/admin
+webcam/motion/*
 *.db
