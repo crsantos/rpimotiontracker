@@ -14,8 +14,9 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^$', direct_to_template, {'template': 'index.html'}, name='home'),
-    url(r'^track/(?P<track>(.)+)', trackmotion, name='trackmotion'),
+    url(r'^$', direct_to_template, 			{'template': 'index.html'}, name='home'),
+    url(r'^track/(?P<track>(.)+)', 			trackmotion, name='trackmotion'),
+    url(r'^notify/(?P<motion_id>(\d)+)', 	notify, name='notify'),
 
 )
 
